@@ -105,35 +105,4 @@ body{
     margin: 0 5px;
 }
 
-@media(max-width:768px){
-    nav{
-        align-items: center;
-        flex-direction: column;
-    }
 
-    .nav h2{
-        margin: 10px 0;
-
-    }
-
-    .user-input{
-        width: 100%;
-    }
-
-    .to-do-items{
-        width: 100%;
-    }
-
-}
-
-@media(max-width:480px){
-    .user-input{
-        width: 74%;
-    }
-}
-
-@media(max-width:320px){
-    .user-input{
-        width: 60%;
-    }
-}
